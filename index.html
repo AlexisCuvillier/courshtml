@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+    <html lang="fr">
+
+    <head> 
+	<meta name= "description " content= " cours sur les bases du HTML" >
+	<meta charset="utf-8" />
+	<meta name= "author" content= "Cuvillier Alexis">
+	<link rel="stylesheet" href="style.css">
+	<style> </style>
+	<script> </script>
+	
+	<title> Cours HTML </title> <!-- apparaît dans l'onglet du navigateur -->
+	
+	</head>
+
+	<body id="corps> 
+	
+	 <!-- <span>Hello </span> world !
+	 <div> Hello </div> world !
+	 Hello world ! -->
+	
+	<h1> HTML </h1>
+	
+	<h2>Type debalses </h2>
+	
+	<h3> BLOCK </h3>
+	<div style=" border: 1px solid black; padding 5px "> </div>
+	<div style="border: 1px dotted black; margin: 5px "> Petit texte</div>
+	<div style="border: 1px dotted black; margin: 5px "> Texte beaucoup plus long </div>
+	<h3> Inline </h3>
+	
+	<div style="border: 1px solid black; padding 5px;"></div>
+	<span style="border: 1px dotted black; margin: 5px "> Petit texte</span><br>
+	<span style="border: 1px dotted black; margin: 5px "> Texte beaucoup plus long </span>
+	<h3> inline-block </h3>
+	<div style="border: 1px solid black; padding 5px;"></div>
+	<span style="border: 1px dotted black; margin: 5px "> Petit texte</span>
+	<div style="border: 1px dotted black; margin: 5px "> Texte beaucoup plus long </div>
+	
+	
+	
+	<h2>Hi&eacute;rarchiser le texte </h2>
+	<h1> Titre de niveau 1 </h1>
+	<h2> Titre de niveau 2 </h2>
+	<h3> Titre de niveau 3 </h3>
+	<h4> Titre de niveau 4 </h4>
+	<h5> Titre de niveau 5 </h5>
+	<h6> Titre de niveau 6 </h6>
+	<p> Paragraphe </p>
+	<p> Paragraphe 2 avec <br>saut &agrave; <hr> la ligne </p>
+	
+	
+	<h2>Entit&eacute;s HTML </h2>
+	
+	<code>&lt;br&gt; </code> pour un retour a&grave; la ligne <br>
+    
+	<code>&lt;hr&gt; </code> pour une ligne s&eacute;paratrce <br>
+	<code> &lt;blockquote&gt; </code> pour un bloc de citation <br>
+	<code>&lt;q&gt; </code> pour une citation <br>
+	<code> &lt;strong&gt; </code> pour mettre en exergues <br>
+	<code> &lt;em&gt; </code> pour mettre en emphase <br>
+	
+	<blockquote> Ceci est un bloc de citation contenant <q> une citation </q> </blockquote>
+	Mise en <strong> exergue  </strong> <br>
+	
+	Mise en <em>emphase</em> <br>
+
+
+		<h2> Les liens </h2>
+		<a href="page.html"> Lien s'ouvrant dans cette page </a> <br>
+		<a href="page.html" target="blank" > Lien s'ouvrant dans une nouvelle fen&ecirc;tre </a><br>
+		<a href="page.html" title="hello"> Lien avec infobulle </a><br>
+		<a href="mailto:alexis62200@outlook.fr"> Envoyer un mail </a> <br>
+		<a href="tel:+33617980197"> Num&eacute;ro de t&eacute;l&eacute;phone </a> <br>
+		
+		
+		
+<h2> Listes </h2>
+
+       <div> 
+        Liste ordonn&eacute;e: <br>
+
+        <ol>
+		   <li> element de liste 1</li>
+		   <li> element de liste 2</li>
+		   <li> element de liste 3</li>
+		   
+		</ol>
+		
+</div>
+<div>
+Liste non ordonn&eacute;e : 
+
+    <ul>
+           <li> element de liste 1</li>
+		   <li> element de liste 2</li>
+		   <li> element de liste 3</li>
+    </ul>
+
+
+</div>
+
+
+<h2> M&eacute;dia - images </h2>
+
+
+<img src="./media/R6.jpg" alt="R6 picture" > <br>
+
+<video src= "./media/video.mp4" type="video/mp4" width="500px" autoplay controls muted > <br>
+
+</video>
+
+<br> <audio controls src="./media/son.mp3" type="audio/mp3">
+</audio>
+
+
+<h2> Contenue embarqu&eacute; </h2>
+<iframe src="http://david-hurtrel.com" frameborder="0" width="640px" height="360px"> </iframe> <br>
+
+<canvas id="dessin"> </canvas>
+
+<h2> Tableaux </h2>
+
+<table border="1">
+    <caption>L&eacute;gende du tableau </caption>
+	
+	<thead>
+	     
+		 <tr>
+		         <th> Cellule de t&ecirc;te A1 </th>
+				 <th> Cellule de t&ecirc;te B1 </th>
+				 <th> Cellule de t&ecirc;te C1 </th>
+				 <th> Cellule de t&ecirc;te D1 </th>
+			
+		 </tr>
+<tbody>
+		<tr>
+		   <td>Cellule A2</td>
+		   <td>Cellule B2</td>
+		   <td>Cellule C2</td>
+		   <td>Cellule D2</td>
+		</tr>
+
+		<tr>
+		   <td>Cellule A3</td>
+		   <td>Cellule B3</td>
+		   <td>Cellule C3</td>
+		   <td>Cellule D3</td>
+		   </tr>
+
+<tr>
+		   <td>Cellule A4</td>
+		              <td>
+		                <table border="1" width="100%">
+						<tr>
+						      <td>A</td>
+							  <td>B</td>
+							  <td>C</td>
+							  <td>D</td>
+							
+						</tr>
+					    </table>
+					  
+					  </td>
+		   
+		   <td>Cellule C4</td>
+		   <td>Cellule D4</td>
+		   </tr>
+
+
+<tr>
+		   <td>Cellule A5</td>
+		   <td>Cellule B5</td>
+		   
+		   <td colspan="2">Cellule D5 fusionn&eacute;e avec C5</td>
+		   </tr>
+
+
+<tr>
+		   <td>Cellule A6</td>
+		   <td>Cellule B6</td>
+		   <td>Cellule C6</td>
+		   <td rowspan="2">Cellule D6 fusionn&eacute;e avc D7</td>
+		   </tr>
+<tr>
+		   <td>Cellule A7</td>
+		   <td>Cellule B7</td>
+		   <td>Cellule C7</td>
+		   
+		   </tr>
+
+		   
+
+</tbody>
+			   <tfoot>
+			<tr>
+			
+			<td>Cellule A8</td>
+		   <td>Cellule B8</td>
+		   <td>Cellule C8</td>
+		   <td>Cellule D8</td>
+		   </tr>
+		       </tfoot>
+
+</table>
+<h2> Les formulaires </h2>
+
+
+	<form action="" method="">
+		<label for="Nom">Nom :		</label>
+		<input type="text" name="nom" id="nom" placeholder="Tapez ici votre texte.."> 
+		<br>
+		
+		<textarea placeholder="zone de texte plus large" > </textarea>
+	<br>
+		<label for="e-mail"> E-mail </label>
+		<input name="email" id="e-mail" type="e-mail" placeholder="Ex:nom.prenom@domaine.com">
+	<br>
+		
+		<label> Mot de passe : </label>
+		<input type="password"> 
+	<br>	
+		<label> T&eacute;l&eacute;phone : </label>
+		<input type="tel">
+	<br>
+	
+		<label> Recherche </label>
+		<input type="search" >
+		<br>
+	
+	<label> Num&eacute;ro </label>
+	 <input type="number" step="3" min="3" >
+	 <br>
+	
+	<label> Date </label>
+	<input type="date">
+	<br>
+	
+	<label> Couleurs </label>
+	<input type="color">
+	<br>
+	
+	<label> Fichier </label>
+	<input type="file">
+	<br>
+	
+	<label> Case a cocher "chekbox" </label> <br>
+	<input type="checkbox"> homme <br>
+	<input type="checkbox"> femme
+	<br>
+	
+	<label> Case a cocher "radio" </label> <br>
+	<input type="radio" name="hf"> homme <br>
+	<input type="radio" name="hf"> femme
+	<br>
+	
+	<label> Liste d&eacute;roulante : </label>
+	<select> 
+	<option value="0">aucun</option>
+	<option value="1">aucun</option>
+	<option value="2">aucun</option>
+	<option value="3">aucun</option>
+	<option value="4">aucun</option>
+	</select>
+	<br>
+	
+	<input type="checkbox" name="cgv" required> J'accepte les CFV sans broncher 
+	<br>
+	
+	
+	<label> R&eacute;inistialiser </label>
+	<input type="reset" value="R&eacute;initialiser">
+	<br>
+	
+	<label> Envoyer </label>
+	<input type="submit" value="envoyer" >
+	<br>
+	
+	
+
+	 </form>
+
+
+    <h2> Balises Structurantes </h2>
+	<code>&lt;header&gt; </code> Pour l'en t&ecirc;te <br>
+	<code>&lt;footer&gt; </code> Pour le pied de la page <br>
+	<code>&lt;main&gt; </code> Pour le contenue principal <br>
+	<code>&lt;nav&gt; </code> Pour le manu de navigation <br>
+	<code>&lt;section&gt; </code> Pour une section <br>
+	<code>&lt;article&gt; </code> Pour un article <br>
+	<code>&lt;aside&gt; </code> Pour une barre lat&eacute;rale <br>
+	
+	
+	<h2> Attributs globaux </h2>
+	
+	<p contenteditable> Contenue modifiable </p>
+	<p title="infobulle du <p>"> Infobulle sur un paragraphe </p>
+	<p style="color: red;"> Style sur paragraphe</p>
+	<p id="paragraphe"> Paragraphe avec id </p>
+	<p class="maClass"> Paragraphe avec class </p>			
+	
+
+
+<script>
+         var canvas= document.getElementById ('dessin');
+		 canvas.style.backgroundColor = "red" ; 
+		 var ctx = canva.getContext ('2d') ;
+		 ctx.fillRect(0, 0, 50, 50,) ;
+</script>
+
+
+	</body>
+
+
+<!-- http://www.cuvillier-alexis.com/chemin/vers/un/fichier.html#section -->
+
+
+
+
+</HTML>
